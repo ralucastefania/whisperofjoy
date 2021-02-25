@@ -1,0 +1,14 @@
+.impressum-page {
+  background-color: red;
+  background-color: #fff;
+  margin: 5px;
+  font-family: arial, helvetica, sans-serif;
+  font-size: 16px;
+  padding-top: 20px;
+  text-align: justify;
+  white-space: pre-wrap;
+}
+
+.title {
+  text-align: center;
+}

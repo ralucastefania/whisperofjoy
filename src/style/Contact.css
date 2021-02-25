@@ -1,0 +1,28 @@
+.contact-title {
+    text-align: center;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="password"],
+form select,
+form textarea {
+  width: 400px;
+}
+
+p.centered {
+  text-align: center;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+form div {
+  margin-bottom: 5px;
+}
+
+form .label-width {
+  display: inline-block;
+  width: 40%;
+  text-align: right;
+  vertical-align: top;
+}
