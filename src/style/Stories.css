@@ -1,3 +1,8 @@
 p {
     text-align: center;
 }
+
+.stories {
+    background-color: crimson;
+    width: 100%;
+}

@@ -1,0 +1,8 @@
+.central-page {
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: space-around;
+
+}

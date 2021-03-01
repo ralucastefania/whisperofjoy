@@ -1,0 +1,24 @@
+.subscribe-popup {
+  vertical-align: middle;
+  text-align: center;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: turquoise;
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+  border-radius: 10px;
+  padding: 40px;
+  z-index: 10;
+  font-size: xx-large;
+  color: black;
+  /* visibility: hidden; */
+  box-shadow: 5px 5px #888888
+}
+
+.close-button {
+    float: right;
+    display: inline-block;
+}
