@@ -1,4 +1,13 @@
 .home {
     background-color: crimson;
     width: 100%;
+    text-align: center;
+}
+
+.central-page-home {
+  background-color: blueviolet;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: space-around;
 }

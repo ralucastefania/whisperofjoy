@@ -1,0 +1,6 @@
+.shop-page {
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 1rem;
+}

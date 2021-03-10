@@ -1,4 +1,13 @@
-.impressum-page {
+/* .cookie-popup {
+  position: fixed;
+  background-color: #000;
+  color: #f2f2f2;
+  text-align: center;
+  width: 100px;
+  border-radius: 5px;
+} */
+
+.cookies-page {
   background-color: #fff;
   margin: 5px;
   font-family: arial, helvetica, sans-serif;

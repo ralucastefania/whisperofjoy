@@ -1,9 +1,12 @@
-nav {
-  margin: 0;
-  background: #000;
+.menu-navigation {
+  margin: 0 auto;
+  background: #000000;
   padding: 0px 0px;
   overflow: hidden;
   text-align: center;
+  position: -webkit-sticky; /* safari */
+  position: sticky;
+  top: 0;
 }
 
 nav li {
@@ -20,4 +23,29 @@ nav li a {
 nav li a:hover {
   background-color: #fff;
   color: black;
+}
+
+.search-box {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  float: right;
+  width: 260px;
+}
+
+.search-box input {
+  height: 1.5rem;
+  border: none;
+  outline: none;
+  border-radius: 0.7rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  width: 240px;
+  outline: none;
+}
+
+.search-box img {
+  margin: 0px 10px 0px 5px;
+  cursor: pointer;
+  transition: all 0.5s;
 }

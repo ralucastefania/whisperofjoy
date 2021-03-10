@@ -1,0 +1,20 @@
+.article-home {
+    background-color: tomato;
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+}
+
+.article-image {
+    width: 350px;
+    height: 350px;
+}
+
+.article-home article {
+    background-color: teal;
+    padding: 3rem;
+}
+
+.article-home article p {
+    text-align: justify;
+}

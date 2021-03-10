@@ -1,13 +1,13 @@
 import React, { useContext } from "react";
 import "../style/Popup.css";
-import { MessengerPiggeon } from "../App";
+// import { MessengerPiggeon } from "../App";
 
 export default function Popup() {
-  const { dispatch, popups } = useContext(MessengerPiggeon);
+  // const { dispatch, popups } = useContext(MessengerPiggeon);
 
   return (
     <div className="subscribe-popup">
-      <form>
+      {/* <form>
         <button
           className="close-button"
           onClick={() => {
@@ -36,7 +36,7 @@ export default function Popup() {
         >
           Submit
         </button>
-      </form>
+      </form> */}
     </div>
   );
 }

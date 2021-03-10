@@ -1,0 +1,14 @@
+.about-title {
+  text-align: center;
+}
+.about-photo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+
+.aboutme p {
+  text-align: justify;
+  padding: 1rem;
+}

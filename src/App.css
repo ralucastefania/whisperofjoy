@@ -1,8 +1,13 @@
-.central-page {
-    background-color: blueviolet;
-    display: flex;
-    flex-direction: row;
-    align-items: stretch;
-    justify-content: space-around;
+body {
+  padding: 5px;
+  margin: 0;
+}
 
+.container {
+  position: relative;
+  min-height: 100vh;
+}
+
+.switch-container {
+  padding-bottom: 3.1rem;
 }
