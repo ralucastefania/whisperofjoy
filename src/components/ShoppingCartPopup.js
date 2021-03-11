@@ -5,13 +5,20 @@ import { WhisperContext } from "../App";
 
 export default function ShoppingCartPopup() {
   const { dispatch, state } = React.useContext(WhisperContext);
-
+  console.log(state);
   return (
     <div className="cart-popup">
       <label>Shoppig Cart</label>
       {state.shoppingCart.map((product) => {
-          return (<div className="cart-element" key={product.id}><img src={product.img}></img><label>{product.title} - {product.id} </label></div>)
-      } )}
+        return (
+          <div className="cart-element" key={product.id}>
+            <img src={product.img}></img>
+            <label>
+              {product.title} - {product.id}{" "}
+            </label>
+          </div>
+        );
+      })}
     </div>
   );
 }

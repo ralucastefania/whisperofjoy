@@ -11,7 +11,7 @@ export default function Shop() {
   return (
     <div className="shop-page">
       {noStock ? <label> no stuff </label> : state.products.map((product) => {
-        return <Product code={product.id} key={product.id}/>;
+        return <Product data={product} key={product.id}/>;
       })}
     </div>
   );

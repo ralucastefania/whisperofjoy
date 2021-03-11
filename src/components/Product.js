@@ -4,17 +4,16 @@ import { WhisperContext } from "../App";
 
 export default function Product(props) {
   const { dispatch, state } = React.useContext(WhisperContext);
-  let [product, ...rest] = state.products.filter((product) => {
-    if (product.id == props.code) return product
-  })
+  let product = props.data
   return (
     <div className="product">
         <img src={product.img}></img>
         <label>{product.title} - {product.id}</label>
         <button onClick={()=>{
+            console.log("onClick")
             dispatch({
                 message: 'addProductInCart',
-                code: product.code
+                code: product.id
             })
         }}>Buy</button>
     </div>

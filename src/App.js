@@ -86,16 +86,18 @@ function App() {
         newState.cookiesPopupVisible = false;
         break;
       case "addProductInCart":
-        let index = 0
-        for(let i=0; i<newState.length; i++){
-          if(newState.products[i].id == action.code) {
-            index = i
-            break
-          }
-        }
-        newState.shoppingCart.push(newState.products[index])
-        newState.products.splice(index,1)
+        // let index = 0
+        // for(let i=0; i<newState.length; i++){
+        //   if(newState.products[i].id == action.code) {
+        //     index = i
+        //     break
+        //   }
+        // }
+      console.log("action.code", action.code)
+        newState.shoppingCart.push(newState.products[action.code])
+        newState.products.splice(action.code,1)
         console.log(newState.shoppingCart)
+  
         break;
 
       default:
